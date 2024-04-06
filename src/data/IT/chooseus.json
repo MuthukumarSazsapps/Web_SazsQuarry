@@ -1,0 +1,28 @@
+[
+  {
+    "image": "/assets/img/icons/ch2.png",
+    "title": "Operational Efficiency",
+    "desc": {
+      "desc1": "Reduced manual effort and 0% manual errors.",
+      "desc2": "To prevent company assets and material stocks that are pilfered or mismanaged by employees.",
+      "desc3": "Deliver accurate and transparent invoices, contributing to positive customer relationships."
+    }
+  },
+  {
+    "image": "/assets/img/icons/ch1.png",
+    "title": "Financial Accuracy",
+    "desc": {
+      "desc1": "To experience 360°-degree view off all the financial statements.",
+      "desc2": "Ensure precise invoicing, minimizing discrepancies and enhancing overall financial accuracy.",
+      "desc3": "Gain a holistic view of your financial performance through detailed reports and analytics."
+    }
+  },
+  {
+    "image": "/assets/img/icons/ch3.png",
+    "title": "Dedicated Support 24/7",
+    "desc": {
+      "desc1": "Customer support is always our number one priority.",
+      "desc2": "Our on call support team will be available to support your business anytime."
+    }
+  }
+]

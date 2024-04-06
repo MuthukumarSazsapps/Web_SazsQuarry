@@ -1,0 +1,87 @@
+{
+  "features": [
+    { "icon": "fa fa-eye", "title": "At SASZ APPS, our mission is clear: Empower businesses to thrive by streamlining their operations through state-of-the-art ERP solutions.We believe in simplifying complexities, enhancing productivity, and fostering growth for organizations across diverse industries." },
+    { "icon": "fa fa-eye", "title": "With years of experience in developing robust ERP solutions, we have honed our expertise to address the unique challenges faced by modern enterprises." },
+    { "icon": "fa fa-eye", "title": "At SAZS APPS excellence is not just a goal; it's our standard. We are committed to delivering ERP solutions that exceed expectations, providing our clients with a competitive edge in today's dynamic business landscape. Our dedication to quality, innovation, and customer satisfaction sets us apart." }
+  ],
+  "accordions": [
+    {
+      "id": 1,
+      "title": "Creative & Simple User Interface",
+      "content": "We have engineered the application to be used across all the touch points and stakeholders.No real computer knowledge or specialized skills required.Our statements and reports guarantee meaningful insights with a 100% data accuracy."
+    },
+    {
+      "id": 2,
+      "title": "Security",
+      "content": "To ensure the maximum security, our products are enabled with a two factor authentication and user access is monitored via a SAZS utility."
+    },
+    {
+      "id": 3,
+      "title": "24/7 Customer Support",
+      "content": "Our on call support team will be available to support your business anytime."
+    },
+    {
+      "id": 4,
+      "title": "Hardware Integration",
+      "content": "We have the flexibility to integrate any type of hardware To automate your business Such us weighment system,barcode integration,automatic number plate reader, electronic beem gate and GPS tracking devices."
+    },
+    {
+      "id": 5,
+      "title": "Powerful Technology",
+      "content": "Based on powerful Microsoft Technology and cloud-based hosting with maximum security."
+    }
+  ],
+  "thirdFeatures": [
+    { "active": true, "title": "Track and monitor every operations from remote" },
+    { "active": true, "title": "100% accuracy in financial statements in single click" },
+    { "active": true, "title": "No dependency with any employees" },
+    { "active": true, "title": "Manage and run multiple yards in multiple places without hassle" },
+    {
+      "active": true,
+      "title": "Reduced manual effort and 0% manual errors"
+    },
+    {
+      "active": true,
+      "title": "Secured & Domain Specific"
+    }
+  ],
+  "integrations": [
+    {
+
+      "image":"/assets/img/about/anprcamera.png",
+      "title": {
+        "text1": "ANPR Camera",
+        "text2": "Integration"
+      }
+    },
+    {
+
+      "image": "/assets/img/about/einvoice.png",
+      "title": {
+        "text1": "E-Invoice",
+        "text2": "Integration"
+      }
+    },
+    {
+      "image": "/assets/img/about/zohologo.png",
+      "title": {
+        "text1": "Zoho ",
+        "text2": "Integration"
+      }
+    },
+    {
+      "image": "/assets/img/about/truck.png",
+     "title": {
+      "text1": "Weighbridge and Camera",
+      "text2": "Integration"
+    }
+    }
+  
+  ]
+
+
+
+}
+
+
+  

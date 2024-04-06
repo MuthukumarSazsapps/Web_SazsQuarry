@@ -1,0 +1,23 @@
+[
+  {
+    "icon": "fab fa-instagram",
+    "link": "https://instagram.com/sazs_apps?igshid=NGVhN2U2NjQ0Yg==",
+    "title": "Instagram",
+    "description": "Close to Watch",
+    "isSvg":false
+  },
+  {
+    "icon":"fab fa-facebook-square",
+    "link":"https://www.facebook.com/p/Sazs-Apps-100075849583725/",
+    "title": "FaceBook",
+    "isSvg": true,
+    "description": "Latest News & Update"
+  },
+  {
+    "icon": "fab fa-youtube",
+    "link": "https://www.youtube.com/@sazsapps724",
+    "title": "YouTube",
+    "isSvg": false,
+    "description": "Chanel for Community"
+  }
+]

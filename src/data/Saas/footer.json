@@ -1,0 +1,22 @@
+{
+  "address": {
+    "address1": "8D, Arunachalam Pettai Street, Kovilpatti,,",
+    "address2": "Tuticorin Dist, Tamil Nadu, India"
+  },
+  "phone": "+91 76666 28000",
+  "email": "sazsapps@gmail.com",
+  "usefulLinks": [
+    { "link": "#", "title": "Home" },
+    { "link": "#", "title": "Projects" },
+    { "link": "#", "title": "product" },
+    { "link": "#", "title": "Blog" },
+    { "link": "#", "title": "Contact" }
+  ],
+  "resources": [
+    { "link": "#", "title": "Online Documentation" },
+    { "link": "#", "title": "Roadmap" },
+    { "link": "#", "title": "Intergrations" },
+    { "link": "#", "title": "FAQs" },
+    { "link": "#", "title": "Help Center" }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "services": [
+    {
+      "image": "/assets/img/icons/serv_icons/7.png",
+      "title": "SAZS - QUARRY KING",
+      "desc": "We are excited to introduce our Quarry and Crusher Billing Software, a robust solution crafted specifically for the dynamic needs of quarry and crusher operations. Designed to optimize billing processes, streamline financial transactions, and provide unparalleled control over your quarry and crusher business, our software is the key to driving efficiency in your operations..",
+      "tags": ["Order Management",
+        "Inventory Management",
+        "Reports and Analytics",
+        "Dynamic Pricing",
+        "Invoicing and Billing","Payment Tracking","Customer Relationship Management(CRM)"]
+    },
+    {
+      "image": "/assets/img/icons/serv_icons/8.png",
+      "title": "SAZS - BRICKS",
+      "desc": "We are thrilled to present our specialized Billing Software tailored for the unique needs of bricks and paver block manufacturers. As the backbone of your financial operations, this software is meticulously crafted to streamline your billing processes, enhance accuracy, and provide a robust platform for managing the financial aspects of your bricks and paver block production and distribution.",
+      "tags": [
+        "Order Management",
+        "Inventory Management",
+        "Reports and Analytics",
+        "Invoicing and Billing",
+        "Payment Tracking",
+        "Customer Relationship Management(CRM)"
+      ]
+    },
+    {
+      "image": "/assets/img/icons/serv_icons/9.png",
+      "title": "SAZS - RMC",
+      "desc": "Introducing our cutting-edge RMC Billing Software, a comprehensive solution designed to simplify and optimize the financial aspects of Ready-Mix Concrete (RMC) businesses. Built with the unique needs of the concrete industry in mind, our software offers a seamless and efficient way to manage billing, invoicing, and financial transactions associated with RMC production and delivery.",
+      "tags": ["Order Management", "Inventory Management","Dynamic Pricing", "Invoicing and Billing", "Storerage", "Payment Tracking","Customer Relationship Management(CRM)"]
+    }
+  ],
+  "works": [
+    {
+      "image": "/assets/img/projects/111.png",
+      "title": "SAZS - QUARRY KING",
+      "tags": ["Admin Dashboard" , "UI/UX Design"]
+    },
+    {
+      "image": "/assets/img/projects/112.png",
+      "title": "Gate Pass",
+      "tags": ["data security, ", "IT consultation"]
+    }
+  ]
+}

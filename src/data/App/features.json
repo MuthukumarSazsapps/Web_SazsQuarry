@@ -1,0 +1,39 @@
+[
+  {
+    "image": "/assets/img/icons/whatsapp.png",
+    "title": {
+      "text1": "Whatsapp & SMS",
+      "text2": "Notifications"
+    }
+  },
+  
+  {
+    "image": "/assets/img/icons/barrier.png",
+    "title": {
+      "text1": "Boom Barrier",
+      "text2": "Integration"
+    },
+    "new": true
+  },
+  {
+    "image": "/assets/img/icons/fe4.png",
+    "title": {
+      "text1": "24/7 Customer",
+      "text2": "Support"
+    }
+  },
+  {
+    "image": "/assets/img/icons/tally.png",
+    "title": {
+      "text1": "Tally",
+      "text2": "Integration"
+    }
+  },
+  {
+    "image": "/assets/img/icons/mobile1.png",
+    "title": {
+      "text1": "Mobile App",
+      "text2": "Integration"
+    }
+  }
+]

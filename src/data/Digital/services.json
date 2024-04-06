@@ -1,0 +1,131 @@
+[
+  {
+    "title": "Customer Management",
+    "number": "01",
+    "icon": "/assets/img/icons/serv_icons/1.png",
+    "text": "Customer management module is to help you define customer settings and prepare customer credit, debit information on the basic of sales and expenses.",
+    "tags": [ "Consultation", "Management","Satisfaction"]
+  },
+ 
+  {
+    "title": "Rate Management",
+    "number": "02",
+    "icon": "/assets/img/icons/serv_icons/24.png",
+    "text": " This modules helps the users to define fixed price and discounts for each customer. This is the onetime activity and applied automatically during billing..",
+    "tags": [
+      "Seasonal Rates",
+      "Dynamic Pricing",
+      "Seasonal Rates"
+    ]
+  },
+  {
+    "title": "Data Security",
+    "number": "03",
+    "icon": "/assets/img/icons/serv_icons/2.png",
+    "text": "To ensure the maximum security, our products are enabled with a two factor authentication and user access is monitored via a SAZS utility .",
+    "tags": [
+      "Access Control",
+      "Backup & Recovery",
+      "Transfer",
+      "Authentication"
+    ]
+  },
+  {
+    "title": "Sales Management",
+    "number": "04",
+    "icon": "/assets/img/icons/serv_icons/31.png",
+    "text": "This module helps you for billing and create invoices on the basis of both unit and ton value. This simple & powerful UI with auto intelligence system helps the users to create invoices quickly..",
+    "tags": [
+      "Sales Intelligence",
+      "Sales Efficiency",
+      "Customer Segmentation"
+    ]
+  },
+    {
+      "title": "Weighbridge Integration",
+      "number": "05",
+      "icon": "/assets/img/icons/car1.png",
+      "text": "Secured module to suppot & automatically collect Data from Weighbridge Indicator and store it for billing, This Weighbridge software solution is designed to help you to manage and track the weighment without any manual entry which prevent misuse and errors",
+      "tags": [
+        "Weighbridge Connectivity",
+        "Accuracy Enhancement",
+        "Weight Data Capture",
+        "Weighing Technology"
+      ]
+    },
+  {
+    "title": "Inventory Management",
+    "number": "06",
+    "icon": "/assets/img/icons/serv_icons/3.png",
+    "text": "This contains general organization profile, sales details, purchase details and the remaining stock that are presented in the organization. There is a provision of updating the inventory and moving it from one place to other place. This also provides the remaining balance of the stock as well as the details of the balance of transaction..",
+    "tags": ["Inventory Valuation", "Order Management", "Inventory Accuracy", "Warehouse Management"]
+  },
+
+  
+
+  {
+    "title": "Mines Operations",
+    "number": "07",
+    "icon": "/assets/img/icons/serv_icons/32.png",
+    "text": "This module helps to track and operations related to mines about drilling and blasting information on daily/weekly/monthly basis",
+    "tags": [
+      "Maintenance Scheduling",
+      "Quality Control",
+      "Safety Compliance"
+
+    ]
+  },
+  {
+    "title": "Fuel Management",
+    "number": "08",
+    "icon": "/assets/img/icons/serv_icons/7.png",
+    "text": "This module helps to track the fuel consumption of vechiles and machinaries. This also helps to track the millage with auto inteligence reports.",
+    "tags": [
+      "Fuel Usage Analytics",
+      "Fuel Theft Prevention",
+      "Fuel Economy Optimization"
+    ]
+  },
+  {
+    "title": "Tyre Monitoring",
+    "number": "09",
+    "icon": "/assets/img/icons/serv_icons/8.png",
+    "text": "This module helps to track the tyre consumption of vechiles and machinaries. This also helps to track the millage with auto inteligence reports.",
+    "tags": [
+      "Fleet Safety",
+      "Tire Health Monitoring",
+      "Tire Wear Analysis"
+    ]
+  },
+  {
+    "title": "Accounts Management",
+    "number": "10",
+    "icon": "/assets/img/icons/serv_icons/30.png",
+    "text": "This module helps to track and visualize all the financial transactions and payable and receivable information’s",
+    "tags": [
+      "Financial Tracking",
+      "Income Tracking","Billing Automation"
+    ]
+  },
+  {
+    "title": "Employee Management",
+    "number": "11",
+    "icon": "/assets/img/icons/serv_icons/4.png",
+    "text": "Optimize your workforce management with Sazs Quarry. Simplify HR tasks, automate attendance tracking, and streamline payroll processes. Empower your team with self-service tools, and gain insights with comprehensive analytics. Elevate your employee management – choose Sazs Quarry for a smarter HR experience.",
+    "tags": [
+      "Centralized Reporting",
+      "Attendance Tracking",
+      "Time and Labor Management"
+    ]
+  },
+  {
+    "title": "Other Integration",
+    "number": "12",
+    "icon": "/assets/img/icons/serv_icons/5.png",
+    "text": "We help to improve to your work efficiency to connect third party hardware integration such as Weighbridge Integration, Biometric Integration, SMS Integration, Camera Integration,Boom Barrier Integration.",
+    "tags": [
+      "Mobile App Integration",
+      "CRM Integration"
+    ]
+  }
+]
