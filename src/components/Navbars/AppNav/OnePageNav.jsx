@@ -85,7 +85,7 @@ const OnePageNav = ({ navbarRef }) => {
                 data-scroll-nav="1"
                 onClick={() => router.push('/Features')}
               >
-                Featured
+                Features
               </a>
             </li>
             <li className="nav-item">
@@ -105,7 +105,7 @@ const OnePageNav = ({ navbarRef }) => {
                 data-scroll-nav="3"
                 onClick={() => router.push('/Community')}
               >
-                Integrations
+                  Social
               </a>
             </li>
             <li className="nav-item">
