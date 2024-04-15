@@ -71,7 +71,6 @@ const OnePageNav = ({ navbarRef }) => {
 
               <div
                 className="nav-link"
-                href="#0"
                 data-scroll-nav="0"
                 onClick={() => router.push('/')}
               >
@@ -81,7 +80,6 @@ const OnePageNav = ({ navbarRef }) => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="#0"
                 data-scroll-nav="1"
                 onClick={() => router.push('/Features')}
               >
@@ -91,7 +89,6 @@ const OnePageNav = ({ navbarRef }) => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="#0"
                 data-scroll-nav="2"
                 onClick={() => router.push('/About')}
               >
@@ -101,7 +98,6 @@ const OnePageNav = ({ navbarRef }) => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="#0"
                 data-scroll-nav="3"
                 onClick={() => router.push('/Community')}
               >
@@ -111,7 +107,6 @@ const OnePageNav = ({ navbarRef }) => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="#0"
                 data-scroll-nav="6"
                 onClick={() => router.push('/Contact')}
               >
