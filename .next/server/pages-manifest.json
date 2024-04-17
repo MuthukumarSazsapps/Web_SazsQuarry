@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/About": "pages/About.js",
-  "/": "pages/index.js",
-  "/Community": "pages/Community.js"
+  "/Community": "pages/Community.js",
+  "/About": "pages/About.js"
 }

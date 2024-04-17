@@ -116,7 +116,7 @@ const Footer = ({ noWave, rtl }) => {
           <small className="small">
             © 2023 Copyrights by{" "}
             <a
-              href="https://sazsapps.com/"
+              href="https://sazs-web-main.vercel.app/"
               className="fw-bold text-decoration-underline"
             >
               Sazs Apps.com

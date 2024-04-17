@@ -80,15 +80,6 @@ const OnePageNav = ({ navbarRef }) => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                data-scroll-nav="1"
-                onClick={() => router.push('/Features')}
-              >
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
                 data-scroll-nav="2"
                 onClick={() => router.push('/About')}
               >
@@ -98,10 +89,19 @@ const OnePageNav = ({ navbarRef }) => {
             <li className="nav-item">
               <a
                 className="nav-link"
+                data-scroll-nav="1"
+                onClick={() => router.push('/Features')}
+              >
+                Features
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
                 data-scroll-nav="3"
                 onClick={() => router.push('/Community')}
               >
-                  Social
+                  Support Us
               </a>
             </li>
             <li className="nav-item">
