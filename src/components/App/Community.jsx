@@ -10,7 +10,7 @@ const Community = ({ rtl }) => {
         <div className="section-head text-center style-4">
           <small className="title_small">Sazs Apps - The Best For You</small>
           <h2 className="mb-30">
-            Join Into
+            Join Into {" "}
             <span>Our Team</span>{" "}
           </h2>
         </div>

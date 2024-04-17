@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/About.js"
     ],
-    "/Contact": [
+    "/Community": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Contact.js"
+      "static/chunks/pages/Community.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
