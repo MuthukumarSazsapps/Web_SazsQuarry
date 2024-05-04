@@ -14716,3 +14716,17 @@ footer.style-15 {
 
 /* ======== */
 /* ======= */
+
+
+
+
+
+
+.mail{
+  position: absolute;
+  right: -150px;
+  top: 70px;
+  border-bottom-left-radius: 30px;
+  pointer-events: none;
+  max-width: 100%;
+}

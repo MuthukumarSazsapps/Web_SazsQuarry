@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
+import ContactForm from './About/ContactForm';
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
@@ -61,7 +62,8 @@ const Header = () => {
             </div>
             <div className="col-lg-6">
               <div className="img">
-                <img src="/assets/img/header/header45.png" alt="" />
+                {/* <img src="/assets/img/header/header45.png" alt="" /> */}
+                <ContactForm rtl={""} />
               </div>
             </div>
           </div>
