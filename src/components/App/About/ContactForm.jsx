@@ -124,7 +124,7 @@ const ContactForm = ({style = "4",rtl}) => {
           regenerateCaptcha();
           // Clear success message after 6 seconds (adjust as needed)
           setTimeout(() => {
-              setSuccess("Mail sent Successfully");
+              setSuccess("Register Successfully");
           },);
 
           setTimeout(() => {
@@ -182,6 +182,9 @@ const ContactForm = ({style = "4",rtl}) => {
                       <div className="text-danger text-center mt-2  fs-12px">
                         {errors.name}
                       </div>
+                    </div>
+                    <div className="text-success fs-20px mb-20">
+                      {success}
                     </div>
                   </div>
 
