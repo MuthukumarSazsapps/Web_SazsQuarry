@@ -183,7 +183,7 @@ const ContactForm = ({style = "4",rtl}) => {
                         {errors.name}
                       </div>
                     </div>
-                    <div className="text-success fs-20px mb-20">
+                    <div className="text-success fs-20px mb-20 text-center">
                       {success}
                     </div>
                   </div>
