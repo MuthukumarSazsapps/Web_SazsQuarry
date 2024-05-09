@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 const OnePageNav = ({ navbarRef }) => {
   const downloadPdf = () => {
-    const pdfUrl = "/assets/pdf/broucher.pdf";
+    const pdfUrl = "/assets/pdf/Sazs Broucher.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Sazs Broucher.pdf"; // You can change the downloaded file name

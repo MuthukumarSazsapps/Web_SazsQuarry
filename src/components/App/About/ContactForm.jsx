@@ -89,7 +89,7 @@ const ContactForm = ({style = "4",rtl}) => {
    
 
     if (!/^\d{10}$/.test(formData.phone)) {
-      newErrors.phone = "Invalid phone number";
+      newErrors.phone = "phone number Required";
     }
 
    
@@ -180,7 +180,7 @@ const ContactForm = ({style = "4",rtl}) => {
                         onChange={handleFormChange}
                       />
                       <div className="text-danger text-center mt-2  fs-12px">
-                        {errors.name}
+                        {errors.phone}
                       </div>
                     </div>
                     <div className="text-success fs-20px mb-20 text-center">
