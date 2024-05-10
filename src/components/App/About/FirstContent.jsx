@@ -7,7 +7,7 @@ const FirstContent = ({ features, rtl }) => {
           <div className="col-lg-6">
             <div className="img mb-30 mb-lg-0">
               {/* <img src="/assets/img/about/ipad.png" alt="" /> */}
-              <img src="/assets/img/about/aboutus.jpg" alt="" />
+              <img src="/assets/img/about/aboutus1.webp" alt="team image" />
             </div>
           </div>
           <div className="col-lg-5">
@@ -55,12 +55,12 @@ const FirstContent = ({ features, rtl }) => {
       </div>
       <img
         src="/assets/img/about/about_s4_lines.png"
-        alt=""
+        alt=" bubble"
         className="lines"
       />
       <img
         src="/assets/img/about/about_s4_bubble.png"
-        alt=""
+        alt="bubble"
         className="bubble"
       />
     </div>
