@@ -9,6 +9,9 @@ const Community = ({ rtl }) => {
       <div className="container">
         <div className="section-head text-center style-4">
           <small className="title_small">Sazs Apps - The Best For You</small>
+          <p className='mb-60'>
+          "Continuing our trajectory of innovation, <strong> SASZ APPS </strong> is poised for exponential growth in the ERP sector. With a steadfast commitment to client satisfaction and a proven track record of success, we aim to expand our reach and exceed the needs of our ever-growing customer base. Our forward-thinking approach to technology and dedication to excellence sets us apart as leaders in the industry. Join us on our journey as we continue to revolutionize the way businesses operate through cutting-edge ERP solutions. Together, let's propel your business towards unparalleled efficiency and success with <strong> SASZ APPS </strong>."
+          </p>
           <h2 className="mb-30">
             Join Into {" "}
             <span>Our Team</span>{" "}
