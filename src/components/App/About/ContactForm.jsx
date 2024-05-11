@@ -105,7 +105,7 @@ const ContactForm = ({style = "4",rtl}) => {
         };
 
         const isEmailSent = await axios.post(
-          "https://web-sazs-quarry.vercel.app/api/api_email",
+          "http://localhost:3000/api/api_email",
           body,
           {
             headers: {
@@ -150,9 +150,8 @@ const ContactForm = ({style = "4",rtl}) => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <section className="form">
-                <p className="text-center fs-16px mb-30">
-                  The field is required mark as{" "}
-                  <span className="text-danger">*</span>
+                <p className="text-center text-white fs-16px mb-30">
+                  <h3>{success.length ?success:"Lets Get Started"}  </h3>{" "}
                 </p>
                 <div className="row">
                   <div className="col-lg-12">
@@ -182,9 +181,6 @@ const ContactForm = ({style = "4",rtl}) => {
                       <div className="text-danger text-center mt-2  fs-12px">
                         {errors.phone}
                       </div>
-                    </div>
-                    <div className="text-success fs-20px mb-20 text-center">
-                      {success}
                     </div>
                   </div>
 

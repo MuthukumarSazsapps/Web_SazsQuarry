@@ -111,7 +111,7 @@ const Form = ({style = "4", rtl}) => {
         };
 
         const isEmailSent = await axios.post(
-          "https://web-sazs-quarry.vercel.app/api/api_email",
+          "http://localhost:3000/api/api_email",
           body,
           {
             headers: {
