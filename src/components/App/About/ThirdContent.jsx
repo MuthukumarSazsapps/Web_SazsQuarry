@@ -8,7 +8,7 @@ const ThirdContent = ({ features, rtl }) => {
           <div className="col-lg-6">
             <div className="img mb-30 mb-lg-0">
               {/* <img src="/assets/img/about/about_s4_img3.png" alt="" /> */}
-              <img src="/assets/img/about/gainprofit.jpg" alt="" />
+              <img src="/assets/img/about/gainprofitaboutus3.webp" alt="" />
             </div>
           </div>
           <div className="col-lg-5">
@@ -40,18 +40,13 @@ const ThirdContent = ({ features, rtl }) => {
                   </li>
                 ))}
               </ul>
-              {/* <Link href="/page-services-5">
-                <a className="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                  <small>{rtl ? "اكتشف الآن" : "Discovery Now"}</small>
-                </a>
-              </Link> */}
             </div>
           </div>
         </div>
       </div>
       <img
-        src="/assets/img/about/about_s4_bubble.png"
-        alt=""
+        src="/assets/img/about/about_s4_bubble.webp"
+        alt="bubble"
         className="bubble"
       />
     </div>

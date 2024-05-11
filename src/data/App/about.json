@@ -48,7 +48,7 @@
   "integrations": [
     {
 
-      "image":"/assets/img/about/anprcamera.png",
+      "image":"/assets/img/about/anprcamera.webp",
       "title": {
         "text1": "ANPR Camera",
         "text2": "Integration"
@@ -56,21 +56,21 @@
     },
     {
 
-      "image": "/assets/img/about/einvoice.png",
+      "image": "/assets/img/about/einvoice.webp",
       "title": {
         "text1": "E-Invoice",
         "text2": "Integration"
       }
     },
     {
-      "image": "/assets/img/about/zohologo.png",
+      "image": "/assets/img/about/zohologo.webp",
       "title": {
         "text1": "Zoho ",
         "text2": "Integration"
       }
     },
     {
-      "image": "/assets/img/about/truck.png",
+      "image": "/assets/img/about/truck.webp",
      "title": {
       "text1": "Weighbridge and Camera",
       "text2": "Integration"

@@ -50,7 +50,7 @@ const OnePageNav = ({ navbarRef }) => {
           onClick={scrollToSection}
         >
           <img
-            src="/assets/img/about/about_logos/sazsquarry.png"
+            src="/assets/img/about/about_logos/sazsquarry.webp"
             alt="app-logo"
           />
         </a>

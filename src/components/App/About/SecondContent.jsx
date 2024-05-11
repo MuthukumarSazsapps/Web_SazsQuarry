@@ -16,9 +16,6 @@ const SecondContent = ({ accordions, rtl }) => {
                 </h2>
               </div>
               <p className="text mb-40">
-                {/* {rtl
-                  ? "يتزامن تلقائيًا عبر جميع أجهزتك. يمكنك أيضًا الوصول إلى الملاحظات وكتابتها بدون اتصال بالإنترنت"
-                  : "Automatically syncs across all your devices. You can also access and write notes without internet connection."} */}
               </p>
               <div className="faq style-3 style-4">
                 <div className="accordion" id="accordionExample">
@@ -75,15 +72,14 @@ const SecondContent = ({ accordions, rtl }) => {
           </div>
           <div className="col-lg-6 order-0 order-lg-2">
             <div className="img mb-10 mb-lg-0">
-              <img src="/assets/img/about/erp2.png" alt="" />
-              {/* <img src="/assets/img/about/2mobiles.png" alt="" /> */}
+              <img src="/assets/img/about/erpaboutus2.webp" alt="erp image" />
             </div>
           </div>
         </div>
       </div>
       <img
-        src="/assets/img/about/about_s4_bubble2.png"
-        alt=""
+        src="/assets/img/about/about_s4_bubble2.webp"
+        alt="bubble"
         className="bubble2"
       />
     </div>

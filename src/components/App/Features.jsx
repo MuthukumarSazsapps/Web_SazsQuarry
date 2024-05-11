@@ -28,7 +28,6 @@ const Features = ({rtl}) => {
             <div className="features-card" key={index}>
               <div className="icon img-contain">
                 <img src={feature.image} alt="" />
-                {/* { feature.new && <span className="label icon-40 alert-success text-success rounded-circle small text-uppercase fw-bold">{ rtl ? 'جديد' : 'new' }</span> } */}
               </div>
               <h6>
                 {feature.title.text1} <br /> {feature.title.text2}
@@ -41,7 +40,7 @@ const Features = ({rtl}) => {
         </div>
         <div>{<Integration integrations={data.integrations} rtl={rtl} />}</div>
       </div>
-      <img src="/assets/img/feat_circle.png" alt="" className="img-circle" />
+      <img src="/assets/img/feat_circle.png" alt="circle" className="img-circle" />
     </section>
   );
 };

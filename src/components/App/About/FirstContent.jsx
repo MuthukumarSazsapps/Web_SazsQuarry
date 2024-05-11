@@ -43,23 +43,17 @@ const FirstContent = ({ features, rtl }) => {
                   </li>
                 ))}
               </ul>
-              {/* <a
-                href="page-contact-5.html"
-                className="btn rounded-pill bg-blue4 fw-bold text-white mt-50"
-              >
-                <small> Free Register </small>
-              </a> */}
             </div>
           </div>
         </div>
       </div>
       <img
-        src="/assets/img/about/about_s4_lines.png"
-        alt=" bubble"
+        src="/assets/img/about/aboutus_s4_lines.webp"
+        alt="bubble"
         className="lines"
       />
       <img
-        src="/assets/img/about/about_s4_bubble.png"
+        src="/assets/img/about/about_s4_bubble.webp"
         alt="bubble"
         className="bubble"
       />

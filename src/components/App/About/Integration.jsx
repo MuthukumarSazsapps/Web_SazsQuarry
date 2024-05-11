@@ -30,7 +30,7 @@ const Integration = ({ integrations, rtl }) => {
           ))}
         </div>
       </div>
-      <img src="/assets/img/about/intg_back.png" alt="" className="intg-back" />
+      <img src="/assets/img/about/intg_back.webp" alt="" className="intg-back" />
     </div>
   );
 }
