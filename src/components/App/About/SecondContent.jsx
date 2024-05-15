@@ -54,20 +54,6 @@ const SecondContent = ({ accordions, rtl }) => {
                   ))}
                 </div>
               </div>
-              <a
-                // href="https://chrome.google.com/webstore/category/extensions"
-                rel="noreferrer"
-                className="btn btn-img mt-40 rounded-pill"
-                target="_blank"
-              >
-                <div className="icon img-contain">
-                  <img src="/assets/img/icons/chrome_icon.png" alt="" />
-                </div>
-                <div className="inf">
-                  <small>{rtl ? "متاح في" : "Available in the"}</small>
-                  <h6>{rtl ? "متجر كروم الالكتروني" : "Chrome Web Store"}</h6>
-                </div>
-              </a>
             </div>
           </div>
           <div className="col-lg-6 order-0 order-lg-2">

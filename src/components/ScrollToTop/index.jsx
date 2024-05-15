@@ -23,7 +23,7 @@ const ScrollToTop = ({ topText }) => {
       </a>
       <>
         <a
-          href="https://api.whatsapp.com/send?phone=917666628000&text=I am intersted in Quarry Product. Please get in touch"
+          href="https://api.whatsapp.com/send?phone=917666628000&text=I am intersted in Quarry Product. Please get in touch&file=$fileUrl"
           className="ifloat"
           target="blank"
         >

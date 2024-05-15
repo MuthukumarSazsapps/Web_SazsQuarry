@@ -117,8 +117,8 @@ TABLE OF CONTENTS:-
 .border-darkBlue {
   border-color: var(--color-darkBlue) !important; }
 
-.bg-darkBlue {
-  background-color: var(--color-darkBlue) !important; }
+/* .bg-darkBlue {
+  background-color: var(--color-darkBlue) !important; } */
 
 .hover-darkBlue:hover {
   color: var(--color-darkBlue) !important; }
@@ -356,8 +356,8 @@ body {
   color: #000; }
   .home-style-7 a:hover {
     color: var(--color-blue7); }
-  .home-style-7 #preloader:after,
-  .home-style-7 #preloader:before {
+  .home-style-7 ,
+  .home-style-7  {
     background: -webkit-gradient(linear, right top, left top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
     background: -webkit-linear-gradient(right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
     background: -o-linear-gradient(right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
@@ -606,7 +606,7 @@ small.text {
     background-image: url(../img/icons/toggle_dot.svg); }
 
 /* --------------- Start Preloader --------------- */
-.pace {
+/* .pace {
   pointer-events: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -760,7 +760,7 @@ small.text {
   0% {
     opacity: 1; }
   100% {
-    opacity: 0; } }
+    opacity: 0; } } */
 
 /* --------------- End Preloader --------------- */
 /* --------------- to_top button --------------- */
@@ -5168,6 +5168,7 @@ header.style-15 {
 .choose-us.style-2 .info h5 {
   font-weight: 600; }
 
+
 .choose-us.style-2 .choose-numbers {
   position: relative;
   z-index: 5; }
@@ -5179,7 +5180,7 @@ header.style-15 {
     -ms-flex-align: center;
     align-items: center; }
     .choose-us.style-2 .choose-numbers .num-item .num {
-      color: #fff;
+      color: #0c0c0c;
       font-size: 40px;
       font-weight: 400;
       -ms-flex-negative: 0;
@@ -5190,7 +5191,7 @@ header.style-15 {
       .choose-us.style-2 .choose-numbers .num-item .num i {
         font-size: 21px; }
     .choose-us.style-2 .choose-numbers .num-item .inf {
-      color: #ccc;
+      color: #0c0c0c;
       text-transform: uppercase;
       font-size: 13px;
       line-height: 1.7; }
@@ -9757,14 +9758,40 @@ header.style-15 {
     top: 0;
     width: 100%;
     height: 100%;
-    background: -webkit-linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent);
-    background: -o-linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent);
-    background: linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent);
-    background-size: 400% 400%;
+    /* background: -webkit-linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent); */
+    /* background: -o-linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent); */
+    /* background: linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent); */
+    /* background-size: 400% 400%; */
     -webkit-animation: gradient 20s linear infinite;
     animation: gradient 20s linear infinite;
     border-radius: 30px;
     overflow: hidden; }
+
+    .contact.style-6 .form1 {
+      position: relative;
+      background-color: var(--color-blue6);
+      border-top: 10px solid var(--color-blue6);
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      padding: 100px 15px; }
+      .contact.style-6 .form1::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: -webkit-linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent);
+        background: -o-linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent);
+        background: linear-gradient(45deg, transparent, #def1fa, transparent, #e8e8f3, transparent);
+        /* background-size: 400% 400%; */
+        -webkit-animation: gradient 20s linear infinite;
+        animation: gradient 20s linear infinite;
+        border-radius: 30px;
+        overflow: hidden; }
+
   .contact.style-6 .content .contact_a {
     position: absolute;
     left: 0;
@@ -9785,8 +9812,8 @@ header.style-15 {
 
 .contact.style-6 .form-group .form-control,
 .contact.style-6 .form-group .form-select {
-  border: 1px solid #9994;
-  border-radius: 30px;
+  border: 3px solid #9994;
+  border-radius: 10px;
   min-height: 50px;
   font-size: 12px;
   padding: 10px 25px; }

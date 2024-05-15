@@ -3,6 +3,7 @@ import aboutDataRTL from '@data/App/about-rtl.json';
 import FirstContent from './FirstContent';
 import SecondContent from './SecondContent';
 import ThirdContent from './ThirdContent';
+import ChooseUs from '../Chooseus';
 
 const About = ({ noFirstContent,noWave, rtl }) => {
   const data = rtl ? aboutDataRTL : aboutData;
@@ -13,7 +14,8 @@ const About = ({ noFirstContent,noWave, rtl }) => {
       <section className={`about ${noWave ? "" : "section-padding"} style-4`}>
         {!noFirstContent && <FirstContent features={data.features} rtl={rtl} />}
         <SecondContent accordions={data.accordions} rtl={rtl} />
-        <ThirdContent features={data.thirdFeatures} rtl={rtl} />
+        {/* <ThirdContent features={data.thirdFeatures} rtl={rtl} /> */}
+        <ChooseUs/>
         {/* {!noWave && (
           <>
             <img

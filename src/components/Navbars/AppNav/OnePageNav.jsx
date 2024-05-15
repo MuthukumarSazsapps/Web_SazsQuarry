@@ -7,7 +7,7 @@ const OnePageNav = ({ navbarRef }) => {
     const pdfUrl = "/assets/pdf/Sazs Broucher.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Sazs Broucher.pdf"; // You can change the downloaded file name
+    link.download = "Sazs Quarry ERP Broucher.pdf"; // You can change the downloaded file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -50,8 +50,9 @@ const OnePageNav = ({ navbarRef }) => {
           onClick={scrollToSection}
         >
           <img
-            src="/assets/img/about/about_logos/sazsquarry.png"
+            src="/assets/img/about/about_logos/sazsquarry.webp"
             alt="app-logo"
+          
           />
         </a>
         <button
@@ -83,7 +84,7 @@ const OnePageNav = ({ navbarRef }) => {
                 data-scroll-nav="2"
                 onClick={() => router.push('/About')}
               >
-                About
+                About Us
               </a>
             </li>
             <li className="nav-item">
@@ -101,7 +102,7 @@ const OnePageNav = ({ navbarRef }) => {
                 data-scroll-nav="3"
                 onClick={() => router.push('/Community')}
               >
-                  Support Us
+                What you gain
               </a>
             </li>
             <li className="nav-item">
@@ -110,14 +111,14 @@ const OnePageNav = ({ navbarRef }) => {
                 data-scroll-nav="6"
                 onClick={() => router.push('/Contact')}
               >
-                Contact
+                Try Demo
               </a>
             </li>
           </ul>
           <div className="nav-side">
             <div className="d-flex align-items-center">
               <span
-                className="btn rounded-pill brd-gray hover-blue4 sm-butn fw-bold"
+                className="btn rounded-pill brd-gray hover-blue4 sm-butn fw-bold me-2"
                 onClick={downloadPdf}
               >
                 <span>
@@ -125,10 +126,7 @@ const OnePageNav = ({ navbarRef }) => {
                   <i className="bi bi-download ms-1"></i>{" "}
                 </span>
               </span>
-            </div>
-          </div>
-          <div className="nav-side ms-2">
-            <div className="d-flex align-items-center">
+
               <a href="tel:7666628000">
                 <span className="btn rounded-pill brd-gray hover-blue4 sm-butn fw-bold">
                   <span>
@@ -139,6 +137,18 @@ const OnePageNav = ({ navbarRef }) => {
               </a>
             </div>
           </div>
+          {/* <div className="nav-side ms-2">
+            <div className="d-flex align-items-center">
+              <a href="tel:7666628000">
+                <span className="btn rounded-pill brd-gray hover-blue4 sm-butn fw-bold">
+                  <span>
+                    +91 7666628000
+                    <i className="bi bi-telephone-fill ms-1"></i>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div> */}
         </div>
       </div>
     </nav>

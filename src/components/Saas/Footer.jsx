@@ -57,7 +57,7 @@ const Footer = () => {
               <small className="text d-block">{footerData.email}</small>
             </div>
           </div>
-          <div className="col-lg-2">
+          {/* <div className="col-lg-2">
             <div className="items">
               <div className="title">Useful Links</div>
               <ul>
@@ -70,8 +70,8 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-          </div>
-          <div className="col-lg-2">
+          </div> */}
+          {/* <div className="col-lg-2">
             <div className="items">
               <div className="title">Resource</div>
               <ul>
@@ -82,7 +82,7 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -21,15 +21,13 @@ const FirstContent = ({ features, rtl }) => {
               <p className="text mb-40">
                 {!rtl && (
                   <>
-                    Welcome to <strong>SASZ APPS</strong> ,A high-octane company
-                    that set sail in the year <strong> 2018</strong> as a "small
-                    unit action". Starting with 2 clients, we now serve more
-                    than
-                    <strong> 150+</strong> happy customers. where innovation
-                    meets efficiency in the world of Enterprise Resource
-                    Planning (ERP) solutions. We are a dynamic and
-                    forward-thinking software company dedicated to transforming
-                    businesses through cutting-edge ERP technology.
+                    Welcome Aboard <strong>SASZ APPS</strong> ,A high Energy company
+                    that embarked on its journey in <strong> 2018</strong> with a "small
+                    but Determined team". From  humble beginnings just with 2 clients, We"ve grown to proudly serve over 
+                    <strong> 150+</strong> Satisfied customers. At the intersection of innovation and efficiency lies our passion: 
+                    delivering cutting-edge Enterprise Resource Planning (ERP) solutions. We're a dynamic,
+                    forward-thinking software company commited to revolutionizing
+                    businesses through advanced ERP technology.
                   </>
                 )}
               </p>
@@ -39,7 +37,7 @@ const FirstContent = ({ features, rtl }) => {
                     <small className="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
                       <i className={item.icon}></i>
                     </small>
-                    <h6 className="fw-bold">{item.title}</h6>
+                    <p className=""><strong>{item.title}</strong>{item.content}</p>
                   </li>
                 ))}
               </ul>

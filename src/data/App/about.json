@@ -1,8 +1,8 @@
 {
   "features": [
-    { "icon": "fa fa-eye", "title": "At SASZ APPS, our mission is clear: Empower businesses to thrive by streamlining their operations through state-of-the-art ERP solutions.We believe in simplifying complexities, enhancing productivity, and fostering growth for organizations across diverse industries." },
-    { "icon": "fa fa-eye", "title": "With years of experience in developing robust ERP solutions, we have honed our expertise to address the unique challenges faced by modern enterprises." },
-    { "icon": "fa fa-eye", "title": "At SAZS APPS excellence is not just a goal; it's our standard. We are committed to delivering ERP solutions that exceed expectations, providing our clients with a competitive edge in today's dynamic business landscape. Our dedication to quality, innovation, and customer satisfaction sets us apart." }
+    { "icon": "fa fa-eye","title":"Mission : ", "content": "At SASZ APPS, our mission is clear: Empower businesses to thrive by streamlining their operations through state-of-the-art ERP solutions.We believe in simplifying complexities, enhancing productivity, and fostering growth for organizations across diverse industries." },
+    { "icon": "fa fa-eye","title":"Expertise : ","content": "With years of experience in developing robust ERP solutions, we have honed our expertise to address the unique challenges faced by modern enterprises." },
+    { "icon": "fa fa-eye","title":"Commitment to Excellence : ", "content": "At SAZS APPS excellence is not just a goal; it's our standard. We are committed to delivering ERP solutions that exceed expectations, providing our clients with a competitive edge in today's dynamic business landscape. Our dedication to quality, innovation, and customer satisfaction sets us apart." }
   ],
   "accordions": [
     {

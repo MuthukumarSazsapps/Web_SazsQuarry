@@ -3,11 +3,11 @@ import loadingPace from '@common/loadingPace';
 
 const PreLoader = () => {
   useEffect(() => {
-    setTimeout(() => loadingPace(), 1);
+    // setTimeout(() => loadingPace(), 1);
   }, [])
 
   return (
-    <div id="preloader"></div>
+    <div id=""></div>
   )
 }
 

@@ -111,7 +111,7 @@ const Form = ({style = "4", rtl}) => {
         };
 
         const isEmailSent = await axios.post(
-          "http://localhost:3000/api/api_email",
+          "https://www.sazsquarry.com/api/api_email",
           body,
           {
             headers: {
@@ -159,10 +159,9 @@ const Form = ({style = "4", rtl}) => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <section className="form">
-                <p className="text-center fs-16px mb-30">
-                  The field is required mark as{" "}
-                  <span className="text-danger">*</span>
-                </p>
+                <h3 className="text-center mb-30 text-white">
+                  Book Now Get 20% Offer...{" "} Don't Miss It
+                </h3>
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="form-group mb-20">
@@ -218,7 +217,7 @@ const Form = ({style = "4", rtl}) => {
 
                   <div className="col-lg-6">
                     <div className="form-group mb-20">
-                      <div className="container captcha">
+                      <div className=" captcha">
                         <div className="col">
                           <input
                             placeholder="Enter Captcha"
@@ -231,7 +230,7 @@ const Form = ({style = "4", rtl}) => {
                           />
                         </div>
                         <div className="mt-3 ms-3">
-                          <span className="captchacode me-2">
+                          <span className="captchacode me-2 bg-light">
                             {captchaCode}
                           </span>
                           <button
@@ -255,7 +254,7 @@ const Form = ({style = "4", rtl}) => {
                         name="comments"
                         value={formData.comments}
                         className="form-control"
-                        placeholder={rtl ? "تعليقات" : "Comments"}
+                        placeholder={rtl ? "تعليقات" : "Enter Your Company Details......"}
                         onChange={handleFormChange}
                       ></textarea>
                       <div className="text-danger text-center mt-2 fs-12px">
@@ -298,7 +297,7 @@ const Form = ({style = "4", rtl}) => {
                     <input
                       type="submit"
                       onClick={handleFormSubmit}
-                      value={rtl ? "ارسل طلبك" : "Send Your Request"}
+                      value={rtl ? "ارسل طلبك" : "Book Now"}
                       className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold text-light"
                     />
                   </div>

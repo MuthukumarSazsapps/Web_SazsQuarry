@@ -299,7 +299,7 @@ small.text {
 .pace.pace-inactive .pace-progress {
   max-width: 100vw; }
 
-#preloader {
+/* #preloader {
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -409,7 +409,7 @@ small.text {
   0% {
     opacity: 1; }
   100% {
-    opacity: 0; } }
+    opacity: 0; } } */
 
 /* --------------- End Preloader --------------- */
 /* --------------- to_top button --------------- */

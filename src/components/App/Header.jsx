@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 import ContactForm from './About/ContactForm';
+import Modal from './Modal';
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
@@ -23,7 +24,7 @@ const Header = () => {
                 </small>
                 <h1 className="mb-30">
                   The Ultimate
-                  <span>Quarry & Crusher</span> Management Software
+                  <span>Quarry & Crusher</span> Management  <span>ERP</span> Software
                 </h1>
                 <p className="text">
                   We don't want to push our ideas on to customers,
@@ -57,13 +58,14 @@ const Header = () => {
                       Promotion
                     </strong>
                   </a>
+                  <Modal />
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="img">
-                {/* <img src="/assets/img/header/header45.png" alt="" /> */}
-                <ContactForm rtl={""} />
+                <img src="/assets/img/header/header45.png" alt="" />
+                {/* <ContactForm rtl={""} /> */}
               </div>
             </div>
           </div>

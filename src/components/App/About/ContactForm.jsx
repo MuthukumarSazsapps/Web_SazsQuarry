@@ -16,6 +16,7 @@ const ContactForm = ({style = "4",rtl}) => {
   const [userInput, setUserInput] = useState("");
   const [isCorrect, setIsCorrect] = useState(false);
 
+
   const handleInputChange = (e) => {
     setUserInput(e.target.value);
   };
@@ -97,11 +98,12 @@ const ContactForm = ({style = "4",rtl}) => {
     setErrors(newErrors);
     
     if (Object.keys(newErrors).length === 0) {
-
       try {
         const body = {
           name: formData.name,
           phoneno: formData.phone,
+          email:"",
+          comment:"Quarry ERP Request" 
         };
 
         const isEmailSent = await axios.post(
@@ -137,6 +139,7 @@ const ContactForm = ({style = "4",rtl}) => {
         console.error("Error sending email: ", error);
       }
     }
+    
   };
 
   return (
@@ -151,7 +154,7 @@ const ContactForm = ({style = "4",rtl}) => {
             <div className="col-lg-8">
               <section className="form">
                 <p className="text-center text-white fs-16px mb-30">
-                  <h3>{success.length ?success:"Lets Get Started"}  </h3>{" "}
+                  <h3>{success.length ?success:"Get 20% offer instantly"}  </h3>{" "}
                 </p>
                 <div className="row">
                   <div className="col-lg-12">
@@ -189,7 +192,7 @@ const ContactForm = ({style = "4",rtl}) => {
                     <input
                       type="submit"
                       onClick={handleFormSubmit}
-                      value={rtl ? "ارسل طلبك" : "Register For Free Demo"}
+                      value={rtl ? "ارسل طلبك" : "Try our demo for free"}
                       className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold text-light"
                     />
                   </div>

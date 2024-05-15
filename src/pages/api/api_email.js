@@ -1,21 +1,24 @@
 const nodemailer = require("nodemailer");
 
 const sendMail = (userData) => {
+
   var transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "sazsappss@gmail.com",
-      pass: "ffpyhmlljqbujfsr",
-    },
+      user: "sazsapps@gmail.com",
+      pass: "cfen ptsy vjeu mpgf",
+    },  
   });
 
   var mailOptions = {
-    from: "sazsappss@gmail.com",
-    to: "sazsappss@gmail.com",
+    from: "sazsapps@gmail.com",
+    to: "sazsapps@gmail.com",
     subject: `Name: ${userData.name}`,
-    text: `Content:${userData.comments}
+    text: `
+    Name: ${userData.name}
     Phone No: ${userData.phoneno}
     Email: ${userData.email}
+    Content:${userData.comment}
     `,
   };
 
@@ -27,6 +30,16 @@ const sendMail = (userData) => {
       return true;
     }
   });
+
+  // transporter.sendMail(mailOptions, (err, data) => {
+  //   if (err) {
+  //     console.log(err);
+  //     res.send("error" + JSON.stringify(err));
+  //   } else {
+  //     console.log("mail send");
+  //     res.send("success");
+  //   }
+  // });
 };
 
 
