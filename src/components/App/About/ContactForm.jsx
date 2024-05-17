@@ -1,8 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import axios from "axios";
-// import ParticleComponent from '../ParticleComponent';
-
 
 const ContactForm = ({ style = "4", rtl }) => {
 
@@ -126,9 +124,7 @@ const ContactForm = ({ style = "4", rtl }) => {
           regenerateCaptcha();
           // Clear success message after 6 seconds (adjust as needed)
           setTimeout(() => {
-              setSuccess("We will reach you soon");
-              <ParticleComponent />
-              
+              setSuccess("We will reach you soon");              
           },);
 
           setTimeout(() => {
