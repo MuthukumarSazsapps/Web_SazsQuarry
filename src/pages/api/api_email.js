@@ -22,7 +22,7 @@ const sendMail = (userData) => {
     `,
   };
 
-  transporter.sendMail(mailOptions, function (error, info) {
+  transporter.sendMail(mailOptions, function (error, info) {  
     if (error) {
       throw new Error(error);
     } else {

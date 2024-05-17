@@ -26,7 +26,7 @@ const Community = ({ rtl }) => {
         </div>
          {/* <ChooseUs /> */}
         <ThirdContent features={data1.thirdFeatures} rtl={rtl} />
-
+        
         <div className="content mt-30">
           {data.map((item, index) => (
             <a

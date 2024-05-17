@@ -8,6 +8,44 @@ const Footer = () => {
         <div className="row gx-0 justify-content-between">
           <div className="col-lg-3 col-sm-6">
             <div className="items">
+              <img src="/assets/img/about/about_logos/sazsquarry.png" alt="logo" />
+              <div className='text-center'>
+                <div>
+                  <strong className='text-center'>Smarter App, Brighter Growth</strong>
+                </div>
+                <div className="socail-icons">
+                  <a
+                    href="https://twitter.com/"
+                    rel="noreferrer"
+                    className="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2"
+                    target="_blank"
+                  >
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/p/Sazs-Apps-100075849583725/"
+                    rel="noreferrer"
+                    className="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2"
+                    target="_blank"
+                  >
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://instagram.com/sazs_apps?igshid=NGVhN2U2NjQ0Yg=="
+                    rel="noreferrer"
+                    className="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray"
+                    target="_blank"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="col-lg-3 col-sm-6">
+            <div className="items">
               <div className="title">
                 <strong>Sazs Apps-Smart Solutions, Endless Integration</strong>
               </div>

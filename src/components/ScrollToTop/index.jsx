@@ -27,8 +27,7 @@ const ScrollToTop = ({ topText }) => {
           className="ifloat"
           target="blank"
         >
-          <img src="/assets/img/icons/whatsapp.png"></img>
-          {/* <i className="ri-whatsapp-line my-float"></i> */}
+          <img src="/assets/img/icons/whatsapp.png" alt="whatsappChat"></img>
         </a>
       </>
     </>

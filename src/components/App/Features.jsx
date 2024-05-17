@@ -27,7 +27,7 @@ const Features = ({rtl}) => {
           {featuresData.map((feature, index) => (
             <div className="features-card" key={index}>
               <div className="icon img-contain">
-                <img src={feature.image} alt="" />
+                <img src={feature.image} alt="featureImages" />
               </div>
               <h6>
                 {feature.title.text1} <br /> {feature.title.text2}

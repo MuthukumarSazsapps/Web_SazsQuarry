@@ -2,6 +2,8 @@ import {useState, useEffect} from "react";
 import axios from "axios";
 
 const Form = ({style = "4", rtl}) => {
+
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -159,8 +161,11 @@ const Form = ({style = "4", rtl}) => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <section className="form">
+                <div>
+                  <img src="/assets/img/about/sazsquarrylogowhite1.webp" alt="logo"  width={150} style={{marginLeft:"300px",position:"relative", bottom:50}}/>
+                </div>
                 <h3 className="text-center mb-30 text-white">
-                  Book Now Get 20% Offer...{" "} Don't Miss It
+                  Book now get 10% Offer...{" "} Don't Miss It
                 </h3>
                 <div className="row">
                   <div className="col-lg-6">
@@ -276,8 +281,8 @@ const Form = ({style = "4", rtl}) => {
                         className="form-check-label small"
                         htmlFor="flexCheckDefault"
                       >
-                        <span>
-                          By submitting, I agree to the
+                        <span className="text-white">
+                          By submitting, I agree to the{" "} 
                           <a className="text-decoration-underline">
                             Terms & Conditons
                           </a>
