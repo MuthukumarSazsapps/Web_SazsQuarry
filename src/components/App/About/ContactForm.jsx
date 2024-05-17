@@ -151,7 +151,7 @@ const ContactForm = ({ style = "4", rtl }) => {
             <div className="col-lg-8">
               <section className="form">
               <div>
-                <img src="/assets/img/about/sazsquarrylogowhite1.webp" alt="logo" className='' width={150} style={{marginLeft:"60px",position:"relative", bottom:50}}/>
+                <img src="/assets/img/about/sqlwhite.webp" alt="logo" className='' width={150} style={{marginLeft:"60px",position:"relative", bottom:50}}/>
               </div>
               {success.length?(
                 <div>
