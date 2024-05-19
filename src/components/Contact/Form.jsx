@@ -162,7 +162,7 @@ const Form = ({style = "4", rtl}) => {
             <div className="col-lg-8">
               <section className="form">
                 <div>
-                  <img src="/assets/img/about/sazsquarrylogowhite1.webp" alt="logo"  width={150} style={{marginLeft:"300px",position:"relative", bottom:50}}/>
+                  <img src="/assets/img/about/sqlwhite.webp" alt="logo"  width={150} style={{marginLeft:"300px",position:"relative", bottom:50}}/>
                 </div>
                 <h3 className="text-center mb-30 text-white">
                   Book now get 10% Offer...{" "} Don't Miss It

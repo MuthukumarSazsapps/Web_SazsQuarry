@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import axios from "axios";
+import ParticlesComponent from './OK';
+
+
 
 const ContactForm = ({ style = "4", rtl }) => {
 
@@ -15,6 +18,9 @@ const ContactForm = ({ style = "4", rtl }) => {
   const [captchaCode, setCaptchaCode] = useState();
   const [userInput, setUserInput] = useState("");
   const [isCorrect, setIsCorrect] = useState(false);
+
+
+  
 
   const handleInputChange = (e) => {
     setUserInput(e.target.value);
@@ -33,6 +39,7 @@ const ContactForm = ({ style = "4", rtl }) => {
   useEffect(() => {
     regenerateCaptcha();
   }, []);
+
 
   const regenerateCaptcha = () => {
     const code = generateRandomCode(6);
@@ -105,7 +112,7 @@ const ContactForm = ({ style = "4", rtl }) => {
         };
 
         const isEmailSent = await axios.post(
-          "http://localhost:3000/api/api_email",
+          "http://localhost:3001/api/api_email",
           body,
           {
             headers: {
@@ -115,6 +122,7 @@ const ContactForm = ({ style = "4", rtl }) => {
         );
 
         if (isEmailSent.data === "Success") {
+          localStorage.setItem("isMailsend",true)
           console.log(isEmailSent.data , "success");
              setFormData({
                name: "",
@@ -124,7 +132,7 @@ const ContactForm = ({ style = "4", rtl }) => {
           regenerateCaptcha();
           // Clear success message after 6 seconds (adjust as needed)
           setTimeout(() => {
-              setSuccess("We will reach you soon");              
+              setSuccess("We will reach you soon");
           },);
 
           setTimeout(() => {
@@ -150,19 +158,22 @@ const ContactForm = ({ style = "4", rtl }) => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <section className="form">
+                <div className='position-absolute'>
+                  {success ? <ParticlesComponent />:null}
+                </div>
               <div>
                 <img src="/assets/img/about/sqlwhite.webp" alt="logo" className='' width={150} style={{marginLeft:"60px",position:"relative", bottom:50}}/>
               </div>
               {success.length?(
                 <div>
+                  
                   <p className="text-center text-white fs-16px mb-30">
                     <h3>{success}</h3>{" "}
                     <i className="fa fa-check-circle-o" style={{color:"Green",fontSize:48}}></i>
                   </p>
                 </div>
               ):(
-                <>
-                {/* <ParticleComponent /> */}
+                <> 
                 <p className="text-center text-white fs-16px mb-30">
                   <h3>{success.length ? success : "Get 10% offer Today"}  </h3>{" "}
                 </p>
@@ -238,8 +249,6 @@ const ContactForm = ({ style = "4", rtl }) => {
               </div>
               </>
               )}
-                
-               
               </section>
             </div>
           </div>
